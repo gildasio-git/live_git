@@ -88,3 +88,22 @@ RESUMO DE COMANDOS
 # git rm
 # git chekout -b  <nova branch>
 # git push origin < nova branch >
+
+
+
+PADRONIZANDO PARÂMETROS COM GLOBAL CONFIG
+
+git config --global user.name "nome do usuario"
+git config --global user.email "email do usuário"
+
+
+puchando a partir de um diretório existente 
+# mkdir "diretori novo"
+# cd\diretorio novo 
+# git init 
+# git remote add origin "endreço git" | adicona um servidor remoto
+# git status 
+# git add .  (adicona todos)
+# git commit -m " obs"  
+# git push origin master 
+

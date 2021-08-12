@@ -20,6 +20,7 @@ DAY 1
 	- Como criar um Merge Request
 	- Como adicionar um membro no projeto
 	- Como fazer o merge na master/Main 
-	
-	```
-
+	- Como associar um repo local com um repo remoto
+	- Como importar um repo do GitHub para o GitLab
+	- Mudamos a branch padrão para MAIN
+```
