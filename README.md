@@ -12,7 +12,8 @@ Treinamento e material desenvolvidos durante lives na Twitch!
 DAY 1
 	```bash 
 	- Entendemos o que é o GIt 
- 	- Entendemos o que é o GitLab
+ 	- Entendemos o que é o Working DIR, Index e HEAD	
+	- Entendemos o que é o GitLab
 	- Como criar um grupo no GitLab
 	- Aprendemos os comandos básicos para maniuplação de arquivos e diretórios no git
 	- Como criar uma branch
