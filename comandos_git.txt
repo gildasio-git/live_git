@@ -51,4 +51,40 @@ CLONAR REPOSITÓRIOS HTTPS:
 OBs. após a geração da chave de um cat no arquivo correspondente a chave pub, e cole no local 
 dentro do ambiente do GIT / GITLAB
 
+CRIANDO UMA NOVA BRANCH
+> Ajuda a manter o branch principal sem alteração, trabalha em outra 
+  branch e faz o merge para a principal quando estiver estável (MERGE ) 
 
+#git checkout -b leticia
+
+PULL REQUEST (Realiza o MERGE com a master)
+
+COMANDOS  - Criando a BRANCH e realizando o MERGE
+
+Step 1: From your project repository, bring in the changes and test.
+
+git fetch origin
+git checkout -b leticia origin/leticia
+git merge main
+
+Step 2: Merge the changes and update on GitHub.
+
+git checkout main
+git merge --no-ff leticia
+git push origin main
+
+
+RESUMO DE COMANDOS 
+
+# git config --global core.editor "vim"
+# git add
+# git commit 
+# git push 
+# git config 
+# git pull
+# git status
+# git log
+# git clone 
+# git rm
+# git chekout -b  <nova branch>
+# git push origin < nova branch >
