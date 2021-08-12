@@ -1,0 +1,54 @@
+GLOBAL CONFIG
+
+
+CONFIGURANDO USERNAME
+# git config --global user.name "Gildasio Bizerra Brito"
+
+CONFIGURANDO EMAIL
+# git config --global user.email "gildasio.ariquemes@hotmail.com"
+
+Configurando editor arquivos configuração
+# git config --global core.editor "vim"
+
+
+VISUALIZANDO LOGS
+# git log  |Visualiza todos os commits realizados
+
+DELIMITANDO O LIMITE DE LOGS
+# git log -3 | MOSTRA AS ULTIMAS 3 ALTERAÇÕES
+
+DELIMITANDO LIMITE DE INFOMRAÇÕES (LINHAS MOSTRADAS NOS LOGS)
+# git log --online
+
+PROCURANDO PUSH POR AUTOR
+# git log --author="gildasio"
+
+MELHORANDO A VISUALIZAÇÃO DOS LOGS
+# git log --graph --decorate
+
+PUCHANDO ARQUIVOS DO REPOSITÓRIO GIT
+# git pull  | Pega a ultima versão do repositório e traz para sua máquina
+
+REMOVER ARQUIVO DO REPOSITÓRIO
+# git rm "nome do arquivo/Diretório"
+
+
+FILTRANDO HISTÓRIDO DE COMANDOS
+# history | grep '#' | grep -v history (Lisa apenas comandos que possuam # e que não possuam a palavra hitory
+
+CRIANO UMA NOVA BRANCH
+# git checkout -b "nova branchi"
+
+ENVIANDO A NOVA BRANCH PARA O SERVIDOR REMOTO NA NOVA BRANCHI
+# git push origin "nova branchi"
+
+
+GERANDO UMA CHAVE(TOKEN)  - O QUE VAI POSSIBILITAR AUMENTAR A SEGURANÇA NO SEU REPOSITÓRIO E PERMITIR 
+CLONAR REPOSITÓRIOS HTTPS:
+
+# ssh-keygen -t rsa -C "seu email"
+
+OBs. após a geração da chave de um cat no arquivo correspondente a chave pub, e cole no local 
+dentro do ambiente do GIT / GITLAB
+
+
